@@ -104,11 +104,6 @@ def main():
     print("- Next: Let's use this in practice with vLLM's API server (Module 5)")
     print("=" * 65)
 
-    # Create marker
-    os.makedirs("markers", exist_ok=True)
-    with open("markers/module4_complete.txt", "w") as f:
-        f.write("MODULE_4_COMPLETE\n")
-
     print("\nModule 4 Complete!")
     print("Next: python 5_api_server.py")
 

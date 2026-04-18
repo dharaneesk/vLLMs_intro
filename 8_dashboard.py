@@ -376,11 +376,6 @@ The advantage grows significantly under concurrent load.
         gr.Markdown("---")
         gr.Markdown("**vLLM Monitoring Dashboard** — InferenceIO Production Monitoring")
 
-    # Create marker
-    os.makedirs("markers", exist_ok=True)
-    with open("markers/module8_complete.txt", "w") as f:
-        f.write("MODULE_8_COMPLETE\n")
-
     print("\nBuilding Gradio dashboard...")
     print("\nProject Deep-Dive Complete!")
     print("\nLaunching dashboard on port 7860...")

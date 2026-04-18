@@ -163,10 +163,6 @@ def main():
     print("- This is the core value of vLLM: high-throughput multi-user serving")
     print("=" * 65)
 
-    # Create marker
-    with open("markers/module6_complete.txt", "w") as f:
-        f.write("MODULE_6_COMPLETE\n")
-
     print("\nModule 6 Complete!")
     print("Next: python 7_tuning_vllm.py")
 

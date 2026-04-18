@@ -249,10 +249,6 @@ def main():
     print("- Next: Build a monitoring dashboard to track these metrics (Module 8)")
     print("=" * 65)
 
-    # Create marker
-    with open("markers/module7_complete.txt", "w") as f:
-        f.write("MODULE_7_COMPLETE\n")
-
     print("\nModule 7 Complete!")
     print("Next: python 8_dashboard.py")
 

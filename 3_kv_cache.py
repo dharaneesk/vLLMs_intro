@@ -90,11 +90,6 @@ def main():
     print("- This is the EXACT problem vLLM's PagedAttention solves (Module 4)")
     print("=" * 65)
 
-    # Create marker
-    os.makedirs("markers", exist_ok=True)
-    with open("markers/module3_complete.txt", "w") as f:
-        f.write("MODULE_3_COMPLETE\n")
-
     print("\nModule 3 Complete!")
     print("Next: python 4_paged_attention.py")
 

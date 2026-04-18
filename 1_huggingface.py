@@ -81,10 +81,6 @@ def main():
     print("- Next: See how vLLM improves this (Module 2)")
     print("=" * 65)
 
-    # Create marker file
-    with open("markers/module1_complete.txt", "w") as f:
-        f.write("MODULE_1_COMPLETE\n")
-
     print("\nModule 1 Complete!")
     print("Next: python 2_vllm_offline.py")
 

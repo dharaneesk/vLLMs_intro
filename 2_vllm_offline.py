@@ -59,7 +59,7 @@ def main():
     print("\n--- COMPARISON: HuggingFace vs vLLM ---")
     hf_tps = None
     hf_time = None
-    baseline_file = "markers/hf_baseline.txt"
+    baseline_file = "markers/module1_baseline.txt"
     if os.path.exists(baseline_file):
         with open(baseline_file, "r") as f:
             for line in f:
@@ -97,10 +97,6 @@ def main():
     print("- vLLM handles batching natively - no manual queue management")
     print("- Before that, let's understand WHY vLLM is faster (Modules 3-4)")
     print("=" * 65)
-
-    # Create marker
-    with open("markers/module2_complete.txt", "w") as f:
-        f.write("MODULE_2_COMPLETE\n")
 
     print("\nModule 2 Complete!")
     print("Next: python 3_kv_cache.py")
