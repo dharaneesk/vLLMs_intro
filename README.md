@@ -35,13 +35,13 @@ This project is organized into progressive deep-dive modules, moving from tradit
 └── requirements.txt        # Full dependency list
 ```
 
-## 🛠️ Performance Insights
+## Performance Insights
 
 - **PagedAttention**: Reclaims up to 80% of wasted KV cache memory by using non-contiguous allocation.
 - **Continuous Batching**: Decouples request scheduling from batch size, maximizing throughput.
 - **Scaling Behavior**: Demonstrates how throughput increases linearly with concurrent usage.
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -63,5 +63,3 @@ python 2_vllm_offline.py
 ```
 
 ---
-
-*Developed for a high-performance LLM engineering portfolio.*
