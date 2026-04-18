@@ -1,0 +1,10 @@
+# Project Markers
+markers/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
